@@ -1,10 +1,10 @@
 // ARRAY DE IMAGENS
 let imagens=[
-    "src/assets/capa_minecraft.avif",
-    "src/assets/floresta_minecraft.jpg",
-    "src/assets/lago_minecraft.webp",
-    "src/assets/castelo_minecraft.jpg",
-    "src/assets/paisagem_minecraft.webp"
+    "./src/assets/capa_minecraft.avif",
+    "./src/assets/floresta_minecraft.jpg",
+    "./src/assets/lago_minecraft.webp",
+    "./src/assets/castelo_minecraft.jpg",
+    "./src/assets/paisagem_minecraft.webp"
 ]
 
 //POSIÇÃO QUE VAI INICIAR AS IMAGENS
