@@ -110,3 +110,7 @@ nav ul li a:hover {
         text-align: center;
     }
 }
+
+.open span:ntn-child(1) {transform: rotate(45deg) translate(5px, 5px);}
+.open span:ntn-child(2) { opacity: 0;}
+.open span:ntn-child(3) {transform: rotate(-45deg) translate(7px, -7px);}
