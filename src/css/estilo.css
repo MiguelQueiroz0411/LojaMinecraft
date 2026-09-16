@@ -1,6 +1,6 @@
 @font-face {
     font-family: "minecraftia";
-    src: url("./src/fonts/Minecraftia-Regular.ttf") format("truetype");
+    src: url("/src/fonts/Minecraftia-Regular.ttf") format("truetype");
 }
 
 :root {
@@ -51,7 +51,7 @@ header {
     border-radius: 8px;
     justify-content: center;
     align-items: center;
-    background-image: url("./src/assets/bloco_terra_minecraft2.png");
+    background-image: url("/src/assets/bloco_terra_minecraft2.png");
     background-position: center;
     background-size: cover;
 }
@@ -103,11 +103,11 @@ nav ul li a:hover {
     justify-content: space-around;
     width: 40px;
     height: 35px;
-    padding: 5px;
+    padding: 5px;;
     border: 3px solid var(--border-color2);
-    background-image: url("./src/assets/bloco_terra_minecraft.png");
     background-position: center;
     background-size: cover;
+    background-image: url("/src/assets/bloco_terra_minecraft.png"); 
     border-radius: 4px;
 }
 
@@ -233,7 +233,7 @@ footer {
 
     nav.active {
         display: block;
-        background-image: url("./src/assets/bloco_terra_minecraft.png");
+        background-image: url("/src/assets/bloco_terra_minecraft.png");
         background-repeat: repeat;
         background-size: 64px 64px;
         box-shadow: 3px solid var(--border-color2);
