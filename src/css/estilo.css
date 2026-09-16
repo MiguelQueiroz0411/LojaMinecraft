@@ -8,6 +8,7 @@
     --bg-dark: #121312;
     --text-color: #fff;
     --text-logo: aqua;
+    --color-primary: purple;
     --border-logo: #654321;
     --text-shadow1: #000;
     --text-shadow2: #333;
@@ -130,6 +131,26 @@ nav ul li a:hover {
     border-radius: 30px;
 }
 
+#container {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.logo-produtos {
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3 ease;
+    font-size: 2rem;
+    color: var(--btn-color);
+}
+
+.logo-produtos:hover {
+    transform: scale(1.2);
+    color: var(--color-primary);
+}
+
 /* Cards */
 .card{
     display: grid;
@@ -172,7 +193,7 @@ nav ul li a:hover {
 }
 .btn-comprar{
     background: var(--btn-color);
-    width: 40%;
+    width: 60%;
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
