@@ -69,7 +69,7 @@ nav ul li a:hover {
     text-transform: uppercase;
 }
 
-#menu-hamburguer {
+.menu-hamburguer {
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -78,7 +78,7 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-#menu-hamburguer span {
+.menu-hamburguer span {
     width: 100%;
     height: 3px;
     background-color: var(--btn-color);
@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768px) {
-    #menu-hamburguer {
+    .menu-hamburguer {
         display: flex;
     }
 
@@ -111,6 +111,6 @@ nav ul li a:hover {
     }
 }
 
-.open span:ntn-child(1) {transform: rotate(45deg) translate(5px, 5px);}
-.open span:ntn-child(2) { opacity: 0;}
-.open span:ntn-child(3) {transform: rotate(-45deg) translate(7px, -7px);}
+.open span:nth-child(1) {transform: rotate(45deg) translate(5px, 5px);}
+.open span:nth-child(2) {opacity: 0;}
+.open span:nth-child(3) {transform: rotate(-45deg) translate(7px, -7px);}
