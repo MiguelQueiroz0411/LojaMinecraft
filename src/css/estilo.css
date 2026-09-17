@@ -1,6 +1,6 @@
 @font-face {
     font-family: "minecraftia";
-    src: url("/src/fonts/Minecraftia-Regular.ttf") format("truetype");
+    src: url("../fonts/Minecraftia-Regular.ttf") format("truetype");
 }
 
 :root {
@@ -24,7 +24,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: minecraftia;
+    font-family: "minecraftia";
 }
 
 body {
@@ -45,22 +45,19 @@ header {
 #logo-pagina {
     color: var(--text-logo);
     font-size: 3rem;
-    font-family: "minecraftia", sans-serif;
     text-shadow: 3px 3px 0 var(--text-shadow1),6px 6px 0 var(--text-shadow2);
     padding: 12px;
     border-radius: 8px;
     justify-content: center;
     align-items: center;
-    background-image: url("/src/assets/bloco_terra_minecraft2.png");
+    background-image: url("../assets/bloco_terra_minecraft2.png");
     background-position: center;
     background-size: cover;
 }
 
 #logo-pagina span {
     color: var(--text-logo-span);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
-    font-family: "minecraftia", sans-serif;
 }
 
 #logo-pagina:hover {
@@ -80,7 +77,6 @@ nav ul {
     display: flex;
     list-style: none;
     align-items: center;
-    font-family: "minecraftia", sans-serif;
 }
 
 nav ul li {
@@ -105,10 +101,10 @@ nav ul li a:hover {
     height: 35px;
     padding: 5px;;
     border: 3px solid var(--border-color2);
+    border-radius: 4px;
+    background-image: url("../assets/bloco_terra_minecraft.png");
     background-position: center;
     background-size: cover;
-    background-image: url("/src/assets/bloco_terra_minecraft.png"); 
-    border-radius: 4px;
 }
 
 .menu-hamburguer span {
@@ -217,7 +213,6 @@ footer {
 @media (max-width: 768px) {
     .menu-hamburguer {
         display: flex;
-        font-family: "minecraftia", sans-serif;
     }
 
     nav {
@@ -233,7 +228,7 @@ footer {
 
     nav.active {
         display: block;
-        background-image: url("/src/assets/bloco_terra_minecraft.png");
+        background-image: url("../assets/bloco_terra_minecraft.png");
         background-repeat: repeat;
         background-size: 64px 64px;
         box-shadow: 3px solid var(--border-color2);
@@ -242,7 +237,6 @@ footer {
     nav ul {
         flex-direction: column;
         text-align: center;
-        font-family: "minecraftia", sans-serif;
     }
 }
 
