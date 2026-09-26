@@ -127,7 +127,8 @@ nav ul li a:hover {
 #imgBanner{
     width: 100%;
     max-width: 600px;
-    height: auto;
+    height: 400px;
+    object-fit: cover;
     border-radius: 30px;
 }
 
