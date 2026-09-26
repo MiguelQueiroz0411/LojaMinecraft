@@ -69,7 +69,7 @@ header {
 @keyframes acender {
     to {
         color: var(--text-color);
-        text-shadow: 0 0 10px rgba(179, 129, 22, 0.885), 0 0 20px rgb(0, 255, 221);
+        text-shadow: 0 0 10px rgb(255, 153, 0), 0 0 20px rgb(0, 255, 221);
     }
 }
 
@@ -152,9 +152,10 @@ nav ul li a:hover {
     display: grid;
     /* Cria coluna automaticas que se ajustam minimo e maximo de 250px e preenche o espaço (fit) */
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    gap: 20px;
+    gap: 18px;
     margin-top: 20px;
 }
+
 .card-game{
     background: var(--bg-card);
     border-radius: 20px;
@@ -163,30 +164,36 @@ nav ul li a:hover {
     transition: 0.3 ease;
     border: 2px solid var(--text-color);
 }
+
 .card-game:hover{
     transform: translateY(-10px);
     border: 5px solid;
     border-color: var(--btn-color);
 }
+
 .card-game img{
     width: 100%;
     height: auto;
 }
+
 .card-content{
     padding: 15px;
     text-align: center;
 }
+
 .card-content h3{
     font-size: 1.5rem;
     color: var(--btn-color);
     margin-bottom: 20px;
 }
+
 .preco{
     color: var(--text-color);
     font-size: 2rem;
     font-weight: 700;
     margin: 10px 0;
 }
+
 .btn-comprar{
     background: var(--btn-color);
     width: 60%;
@@ -198,6 +205,7 @@ nav ul li a:hover {
     font-weight: 700;
     font-size: 1.2rem;
 }
+
 .btn-comprar:hover{
     background-color: var(--color-primary);
     color: var(--text-color);
